@@ -1,0 +1,192 @@
+# ==============================================================================
+# Python & Bytecode
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# Testing, QA & Linting
+# ==============================================================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# ==============================================================================
+# AI Assistants, Agents & LLM Development Tooling
+# ==============================================================================
+# Agent rules, prompts, and context configs
+AGENTS.md
+agents.md
+.agents/
+GEMINI.md
+gemini.md
+.gemini/
+CLAUDE.md
+claude.md
+.claude/
+.cursor/
+.cursorrules
+.cursorignore
+.windsurfrules
+.windsurf/
+.copilot/
+copilot-instructions.md
+.github/copilot-instructions.md
+.aider*
+.continue/
+.cody/
+.devin/
+.antigravity/
+workspace_state/
+implementation_plan.md
+walkthrough.md
+chat_history/
+prompts/
+scratch/
+
+# ==============================================================================
+# AI / ML Models, Datasets & Checkpoints
+# ==============================================================================
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.h5
+*.onnx
+*.tflite
+*.pb
+*.model
+*.weights
+*.emb
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pickle
+*.sav
+
+# Datasets & Big Data
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.jsonl
+
+# ML Experiment Tracking & Logs
+logs/
+wandb/
+mlruns/
+tensorboard/
+tb_logs/
+
+# ==============================================================================
+# Notebooks & Archive Files
+# ==============================================================================
+*.ipynb
+.ipynb_checkpoints/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ==============================================================================
+# IDEs & Operating Systems
+# ==============================================================================
+# VSCode
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Jupyter
+.jupyter/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==============================================================================
+# bmopso Specific Runtime Artifacts
+# ==============================================================================
+results/
+pareto/
+runs/
+output/
+tmp/
+temp/
+
+# ==============================================================================
+# Security & Credentials
+# ==============================================================================
+*.key
+*.pem
+*.crt
+*.token
+*.secret
+*.password
+credentials.json
+auth.json
+
+# ==============================================================================
+# Never Publish (Drafts / Private notes)
+# ==============================================================================
+notes/
+drafts/
+private/
+local/

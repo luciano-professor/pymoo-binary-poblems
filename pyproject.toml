@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymoo-binary-problems"
+version = "0.1.0"
+description = "Benchmark Problem Suite for Binary Multiobjective Optimization in pymoo"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Luciano Soares de Souza", email = "43418124+luciano-professor@users.noreply.github.com" }
+]
+keywords = [
+    "optimization",
+    "multiobjective-optimization",
+    "binary-optimization",
+    "pymoo",
+    "benchmark-problems",
+    "combinatorial-optimization",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "numpy>=1.20.0",
+    "pymoo>=0.6.0",
+    "scikit-learn>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/luciano-professor/pymoo-binary-poblems"
+Repository = "https://github.com/luciano-professor/pymoo-binary-poblems"
+Issues = "https://github.com/luciano-professor/pymoo-binary-poblems/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
