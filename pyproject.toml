@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pymoo-binary-problems"
-version = "0.1.0"
+version = "1.0.0"
 description = "Benchmark Problem Suite for Binary Multiobjective Optimization in pymoo"
 readme = "README.md"
 requires-python = ">=3.9"

@@ -17,7 +17,7 @@ from pymoo_binary_problems import (
 
 def test_package_exports() -> None:
     """Verify all expected symbols are exported in __all__ and importable."""
-    assert __version__ == "0.1.0"
+    assert __version__ == "1.0.0"
 
     expected_all = [
         "BinaryProblem",
