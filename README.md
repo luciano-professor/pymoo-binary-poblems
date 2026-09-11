@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![pymoo](https://img.shields.io/badge/pymoo-%3E%3D0.6.0-orange.svg)](https://pymoo.org/)
 [![Tests](https://img.shields.io/badge/pytest-passing-brightgreen.svg)](https://docs.pytest.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 **`pymoo-binary-problems`** is a standalone, domain-agnostic Python package providing a comprehensive suite of benchmark problems for **Binary Multi-Objective Optimization (BMOO)** built specifically for the [`pymoo`](https://pymoo.org/) framework.
 
@@ -278,4 +278,4 @@ pytest -v
 
 ## 📄 License
 
-This project is distributed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is distributed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for details.

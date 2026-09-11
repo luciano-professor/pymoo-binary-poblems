@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2026-09-11
+
+### Changed
+- Relicensed project from MIT License to Apache License 2.0 (`Apache-2.0`).
+- Updated license identifiers and metadata in `LICENSE`, `pyproject.toml`, and `README.md`.
+
+---
+
 ## [1.0.0] - 2026-08-28
 
 ### Added
